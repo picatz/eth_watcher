@@ -6,7 +6,7 @@ require "eth_watcher/version"
 Gem::Specification.new do |spec|
   spec.name          = "eth_watcher"
   spec.version       = EthWatcher::VERSION
-  spec.authors       = ["Kent Gruber"]
+  spec.authors       = ["Kent 'picat' Gruber"]
   spec.email         = ["kgruber1@emich.edu"]
 
   spec.summary       = %q{A threaded command-line application to monitor network packets for hardware addresses in ethernet headers.}
