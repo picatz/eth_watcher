@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/picatz/eth_watcher"
   spec.license       = "MIT"
 
+  spec.files         = Dir['lib/**/*.rb']
   spec.bindir        = 'bin'
   spec.executable    = "eth_watcher"
   spec.require_paths = ['lib']
