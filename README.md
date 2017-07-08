@@ -1,6 +1,6 @@
-# EthWatcher
+# Eth Watcher
 
-Watching dilligently for hardware addresses in ethernet header packets via the command-line.
+A threaded command-line application to monitor network packets for hardware addresses in ethernet headers.
 
 ## Installation
 

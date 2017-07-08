@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kent Gruber"]
   spec.email         = ["kgruber1@emich.edu"]
 
-  spec.summary       = %q{A command-line application to monitor for hardware addresses in ethernet headers via network packets.}
+  spec.summary       = %q{A threaded command-line application to monitor network packets for hardware addresses in ethernet headers.}
   #spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/picatz/eth_watcher"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
