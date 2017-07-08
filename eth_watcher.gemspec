@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   spec.executable    = "eth_watcher"
   spec.require_paths = ['lib']
 
-  spec.add_dependency "packetgen"
-  spec.add_dependency "trollop"
+  spec.add_dependency "packetgen", '~> 1.4.3'
+  spec.add_dependency "trollop",   '2.1.2'
 
   spec.add_development_dependency "bundler", "~> 1.15"
   spec.add_development_dependency "rake", "~> 10.0"
